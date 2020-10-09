@@ -84,6 +84,8 @@ STATICFILES_DIRS = (
 STATIC_ROOT = './static_root'
 STATIC_URL = '/static/'
 SITE_URL = 'http://localhost:8000'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
